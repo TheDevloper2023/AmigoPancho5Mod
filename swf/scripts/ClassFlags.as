@@ -19,7 +19,7 @@ package
       
       public static var isGameLocked:Boolean = false;
       
-      public static var isVisibleEdit:Boolean = false;
+      public static var isVisibleEdit:Boolean = true;
       
       public static var isStartFirstLevel:Boolean = false;
       
@@ -27,7 +27,7 @@ package
       
       public static var isShowLogo:Boolean = true;
       
-      public static var isSaveLevelsFromCodeToShara:Boolean = false;
+      public static var isSaveLevelsFromCodeToShara:Boolean = true;
       
       public static var isGameOver:Boolean = false;
       

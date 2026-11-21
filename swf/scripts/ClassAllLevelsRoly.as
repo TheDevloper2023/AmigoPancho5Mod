@@ -2640,7 +2640,7 @@ package
             }
             _loc3_++;
          }
-         ClassFlags.isSaveLevelsFromCodeToShara = false;
+         ClassFlags.isSaveLevelsFromCodeToShara = true;
          return _loc2_;
       }
    }

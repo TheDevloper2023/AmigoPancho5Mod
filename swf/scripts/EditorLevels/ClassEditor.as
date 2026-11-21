@@ -145,10 +145,12 @@ package EditorLevels
                this.goClear(null);
                break;
             case this.menuKonstruktor.SAVE:
-               this.goSAVE(null);
+               // Hardcode this for now
+               this.goShare(null);
                break;
             case this.menuKonstruktor.SEND:
-               this.goSEND(null);
+               // Hardcode this for now
+               this.goShare(null); //this.goSEND(null);
                break;
             case this.menuKonstruktor.SHARE:
                this.goShare(null);
@@ -550,7 +552,7 @@ package EditorLevels
             rezhim = CREATE;
             stage.focus = level.stage;
          };
-         urlGame = "http://www.bubblebox.com/scripts/coverorange/_rpc3LinkLevel_.php";
+         urlGame = "http://127.0.0.1:5000/linklevel" //http://www.bubblebox.com/scripts/coverorange/_rpc3LinkLevel_.php";
          objectChareLevel = new ClassChareLevel(this.getStrLevel().toString(),urlGame);
          addChild(objectChareLevel);
          rezhim = this.NEWWINDOWS;

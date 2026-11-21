@@ -43,20 +43,23 @@ package EditorLevels
       public function ClassChareLevel(param1:String, param2:String)
       {
          super();
-         var _loc3_:Class = amigo5.swfMoviesInterface.getAssetClass("shareLevel");
-         this.movie = new _loc3_();
-         this.buttonOK = (this.movie as Object).but_ok;
-         this.buttonCopy = (this.movie as Object).but_copy;
-         this.buttonCANCEL = (this.movie as Object).but_cancel;
-         this.buttonCANCEL.addEventListener(MouseEvent.CLICK,this.closeShare);
-         this.buttonOK.visible = false;
-         this.buttonCopy.visible = false;
-         this.windowText = (this.movie as Object).message;
-         this.windowCaption = (this.movie as Object).caption;
-         this.windowText.text = "Wait a moment, please...";
-         (this.movie.tck as TextField).text = "";
-         addChild(this.movie);
-         addEventListener(this.LINK_READY,this.showLinkNow);
+         // There is such sceen, will implement it later promise
+
+         //var _loc3_:Class = amigo5.swfMoviesInterface.getAssetClass("shareLevel");
+         //this.movie = new _loc3_();
+         //this.buttonOK = (this.movie as Object).but_ok;
+         //this.buttonCopy = (this.movie as Object).but_copy;
+         //this.buttonCANCEL = (this.movie as Object).but_cancel;
+         //this.buttonCANCEL.addEventListener(MouseEvent.CLICK,this.closeShare);
+         //this.buttonOK.visible = false;
+         //this.buttonCopy.visible = false;
+         //this.windowText = (this.movie as Object).message;
+         //this.windowCaption = (this.movie as Object).caption;
+         //this.windowText.text = "Wait a moment, please...";
+         //(this.movie.tck as TextField).text = "";
+         //addChild(this.movie);
+         //addEventListener(this.LINK_READY,this.showLinkNow);
+         
          this.getWebLink(param1,param2);
       }
       
